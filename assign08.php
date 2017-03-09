@@ -22,41 +22,35 @@
       <h3>Task 1:  Write php code to list three countries and their capitals.</h3><br>
 
 <?php
-/*
-
+$animalNoise[] = filter_input(INPUT_POST, 'animalNoise');
+print_r($animalNoise);
+$printAnimalNoise = (string) $animalNoise;
+echo $printAnimalNoise;
 ?>
-
 <!--  **************************************************
       *
       *
       *
       **************************************************
 -->
-
 <!-- 
 <br>
 -->
-
 <?php
-
 ?>
-
-
-
 <?php 
-
-
-
-
-
  ?>
  
  
  
  
  
- <form action='oldmac2.php' method='post'>
-   <p>Select as many animals as you would like:<br/>
+ <form action='assign08.php' method='post'>
+   <p>Select as many animals as you would like.  
+   <ol>
+   <li>To select more than one on a Mac, hold down the control key and click.</li>
+      <li>To deselect a choice on a Mac, hold down the control key and click.</li>
+   <br/>
    <select name='animalNoise[]' size=5 multiple>
      <option value='pig:oink'>Pig
      <option value='duck:quack'>Duck
@@ -70,7 +64,6 @@
    <input type='submit' value='Sing!'>
  </form>
  
-
 </main>
 </body>
 </html>
